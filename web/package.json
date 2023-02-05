@@ -1,0 +1,35 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      "defaults",
+      "not IE 11",
+      "not IE_Mob 11"
+    ]
+  },
+  "dependencies": {
+    "@redwoodjs/auth": "latest",
+    "@redwoodjs/auth-dbauth-web": "latest",
+    "@redwoodjs/forms": "latest",
+    "@redwoodjs/router": "latest",
+    "@redwoodjs/web": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/line-clamp": "latest",
+    "@tailwindcss/typography": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "postcss-loader": "latest",
+    "tailwindcss": "latest"
+  }
+}
